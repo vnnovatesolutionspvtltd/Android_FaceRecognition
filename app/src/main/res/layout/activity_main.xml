@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:text="CLICK HERE"-->
+<!--        android:layout_marginTop="@dimen/_20sdp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="@dimen/_15ssp"/>-->
+
+    <LinearLayout
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/customcircle">
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/attendance"
+            app:tint="#ffffff"
+            android:id="@+id/main_attendance"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCAN YOUR FACE"
+        android:textSize="@dimen/_15ssp"
+        android:gravity="center"
+        android:textColor="#0000FF"
+        android:layout_marginTop="@dimen/_5sdp"/>
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_1sdp"-->
+<!--        android:layout_marginTop="@dimen/_50sdp"-->
+<!--        android:background="#000080"-->
+<!--        android:layout_marginLeft="@dimen/_30sdp"-->
+<!--        android:layout_marginRight="@dimen/_30sdp"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginTop="@dimen/_70sdp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginLeft="@dimen/_15sdp"-->
+<!--        android:layout_marginRight="@dimen/_15sdp">-->
+
+    <LinearLayout
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@drawable/customcircle">
+
+    <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/adduser"
+                app:tint="#ffffff"
+                android:id="@+id/main_adduser"/>
+
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER YOUR FACE"
+        android:textSize="@dimen/_15ssp"
+        android:gravity="center"
+        android:textColor="#0000FF"
+        android:layout_marginTop="@dimen/_5sdp"/>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="@dimen/_100sdp"-->
+<!--        android:layout_height="@dimen/_100sdp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="@dimen/_50sdp"-->
+<!--        android:background="@drawable/customcircle">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="@dimen/_50sdp"-->
+<!--            android:layout_height="@dimen/_50sdp"-->
+<!--            android:src="@drawable/userlist"-->
+<!--            app:tint="#ffffff"-->
+<!--            android:id="@+id/main_attendanceuserlist"/>-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="ATTENDANCE LIST"-->
+<!--        android:textSize="@dimen/_15ssp"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="#0000FF"-->
+<!--        android:layout_marginTop="@dimen/_5sdp"/>-->
+
+
+    <!--    </LinearLayout>-->
+
+
+</LinearLayout>

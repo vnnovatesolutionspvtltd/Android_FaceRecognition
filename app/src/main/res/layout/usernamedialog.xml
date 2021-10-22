@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="@dimen/_175sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/username"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15ssp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:text="Isha"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="@dimen/_15ssp"
+        android:id="@+id/submit_btn"/>
+
+
+</LinearLayout>

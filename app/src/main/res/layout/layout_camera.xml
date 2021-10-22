@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_below="@id/linearTopView"
+    android:padding="@dimen/_10sdp"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:background="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="org.tensorflow.demo.CameraActivity" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="bottom"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp">
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:text="Scan your face"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

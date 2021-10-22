@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#000000"
+    tools:context=".FaceRecognitionScreenActivity">
+
+    <ImageView
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/face_recognition1"
+        app:tint="@color/main_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_25ssp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textAlignment="center"
+        android:text="hii"
+        android:id="@+id/text"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="FACIO is a facial recognition app which  detects person from your social network, media files or internet."/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@color/main_color"
+        android:text="GET STARTED"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15ssp"
+        android:id="@+id/btn_next"/>
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/checks"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congrats!"
+        android:textSize="@dimen/_17ssp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#3BB54A"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Selfie has been recognized"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="#000080"/>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_images"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:src="@drawable/profileicon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center"
+        android:id="@+id/profile_name"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="#0000FF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_30sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="#a9a9a9"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isha@gmail.com"
+            android:textSize="@dimen/_14ssp"
+            android:layout_marginTop="0dp"
+            android:id="@+id/profile_email"
+            android:textColor="#0000FF"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="#a9a9a9"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1234567890"
+                android:textSize="@dimen/_14ssp"
+                android:layout_marginTop="0dp"
+                android:id="@+id/profile_phone"
+                android:textColor="#0000FF"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_15sdp"
+           android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="#a9a9a9"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23-11-2020"
+                android:textSize="@dimen/_14ssp"
+                android:layout_marginTop="0dp"
+                android:id="@+id/profile_dateofbirth"
+                android:textColor="#0000FF"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:text="Okay"
+        android:background="#2196f3"
+        android:textColor="#000000"
+        android:id="@+id/profile_okay"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:textSize="@dimen/_14ssp"/>
+
+</LinearLayout>
+</ScrollView>
